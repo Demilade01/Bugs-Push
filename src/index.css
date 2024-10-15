@@ -137,7 +137,7 @@
   /* END of Gradients */
   /* START of Common */
   .container {
-    @apply mx-auto max-w-[1100px] px-16 max-xl:px-8 max-lg:px-6 max-sm:px-4;
+    @apply mx-auto max-w-[1300px] px-16 max-xl:px-8 max-lg:px-6 max-sm:px-4;
   }
 
   .caption {
@@ -160,7 +160,7 @@
   }
 
   .nav-li {
-    @apply relative flex flex-1 items-center justify-between max-lg:flex-col max-lg:items-start;
+    @apply relative flex items-center justify-between max-lg:flex-col max-lg:items-start;
   }
 
   .nav-logo {
