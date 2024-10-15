@@ -13,7 +13,7 @@ export const cards = [
     text: 'Years'
   },
   {
-    id: '5.72',
+    id: '42.2M',
     text: 'Volume Traded'
   }
 ];

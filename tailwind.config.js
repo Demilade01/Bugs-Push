@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        p1: '#2EF2FF',
+        p1: '#fff9',
         p2: '#3C52D9',
         p3: '#C8EA80',
         p4: '#EAEDFF',
         p5: '#C4CBF5',
         s1: '#0C1838',
         s2: '#0C1838',
-        s3: '#334679',
-        s4: '#1959AD',
+        s3: '#06182c',
+        s4: '#0C1838',
         s5: '#263466',
         black: {
           DEFAULT: '#000000',
