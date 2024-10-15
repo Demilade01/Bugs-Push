@@ -11,6 +11,16 @@ const Hero = () => {
             <br />
             Crypto Rectification
             </h1>
+            <button className='bg-[#0d6efd]  hover:bg-blue-800 text-white py-2 px-4 rounded inline-flex items-center mr-4'>
+              <div style={{ position: 'relative', display: 'inline-block' }}>
+              </div>
+              <h4 className='ml-2'>Connect</h4>
+            </button>
+            <button className='bg-blue-950 text-white py-2 px-4 rounded inline-flex items-center'>
+              <div style={{ position: 'relative', display: 'inline-block' }}>
+              </div>
+              <h4 className='ml-2'>Connect Manually</h4>
+            </button>
             <p className='items-center  text-p4 mb-14 max-md:mb-10'>
             Your go-to online tool to <span className='text-blue-950'>seamlessly and efficiently</span>  fix any blockchain-related issues you might encounter.
             </p>
@@ -19,7 +29,6 @@ const Hero = () => {
             <img src='/public/assets/etherium.png' className='size-123 max-lg:h-auto' alt='hero' />
           </div> */}
           </div>
-
 
 
         </div>

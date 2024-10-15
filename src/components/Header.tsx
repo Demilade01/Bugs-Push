@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
+import { IoWallet } from "react-icons/io5";
 import clsx from 'clsx';
 import Button from './Button';
 
@@ -33,7 +34,12 @@ const Header = () => {
           <nav className={clsx('lg:flex lg:space-x-10 lg:items-center lg:justify-end lg:flex-1', isOpen ? 'block' : 'hidden')}>
             <a href="/" className='text-p4 font-bold text-lg'>Connect</a>
             <a href="/#about" className='text-p4 font-bold text-lg'>Connect Manually</a>
-            <button className='hidden lg:block'>Get Started</button>
+            <button className='bg-[#0d6efd] hover:bg-blue-800 text-white py-2 px-4 rounded inline-flex items-center'>
+              <div style={{ position: 'relative', display: 'inline-block' }}>
+                <IoWallet />
+              </div>
+              <h4 className='ml-2'>Connect</h4>
+            </button>
           </nav>
         </div>
         <button className='lg:hidden z-2 size-10 right-17 flex justify-center items-center' onClick={() => setIsOpen((prevState) => !prevState)}>
