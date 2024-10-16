@@ -8,7 +8,7 @@ const Card = () => {
       {cards.map((card) => (
       <div
       key={card.id}
-      className='h-40 bg-gray-800  m-4 p-4 flex justify-center items-center rounded-lg md:box-content' // This line modifies the div colors
+      className='h-40 bg-box  m-4 p-4 flex justify-center items-center rounded-lg md:box-content' // This line modifies the div colors
       >
         <div className='grid grid-cols-1 gap-2 items-center justify-center text-center'>
         <div className=''>

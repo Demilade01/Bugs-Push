@@ -13,8 +13,8 @@ const ManualConnection = () => {
       <div className="flex flex-col lg:flex-row lg:items-start">
       <div className='flex flex-col items-center justify-center py-2 px-2 lg:w-1/2'>
         <div className='flex items-center'>
-        <div className='h-4 w-1 bg-gray-300' />
-        <p className='px-1 uppercase'>MANUAL CONNECTION</p>
+        <div className='h-4 w-1 bg1' />
+        <p className='px-1 uppercase bg-text'>MANUAL CONNECTION</p>
         </div>
 
         <h2 className='text-white text-2xl mt-4 lg:mt-0'>You can choose to Connect Manually</h2>
@@ -53,3 +53,4 @@ const ManualConnection = () => {
 }
 
 export default ManualConnection
+

@@ -8,7 +8,7 @@ export default {
         p2: '#3C52D9',
         p3: '#C8EA80',
         p4: '#EAEDFF',
-        p5: '#C4CBF5',
+        p5: 'linear-gradient(108.18deg, #ea4c89 -12.02%, #4d44c6 60%)',
         s1: '#0C1838',
         s2: '#0C1838',
         s3: '#06182c',
@@ -18,6 +18,9 @@ export default {
           DEFAULT: '#000000',
           100: '#05091D',
         },
+      },
+      backgroundImage: {
+      cs: 'linear-gradient(108.18deg, #ea4c89 -12.02%, #4d44c6 60%)',
       },
       boxShadow: {
         100: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',

@@ -119,11 +119,6 @@ export const services = [
     btnName: 'Resolve'
   },
   {
-    title: '',
-    subTitle: '',
-    btnName: 'Resolve'
-  },
-  {
     title: 'Buy and Sell Liquidity Issues Resolution',
     subTitle: 'Address liquidity challenges affecting buy and sell actions, ensuring a balanced and smooth liquidity provision within trading platforms.',
     btnName: 'Resolve'
@@ -151,11 +146,6 @@ export const services = [
   {
     title: 'High Gas Fees',
     subTitle: 'Click here for gas fee related issues.',
-    btnName: 'Resolve'
-  },
-  {
-    title: 'Validation',
-    subTitle: 'click here for Validation related issues.',
     btnName: 'Resolve'
   },
   {
@@ -187,25 +177,33 @@ export const services = [
 
 export const faq = [
   {
-    id: 'Q1',
+    id: 'Q1.',
     title: 'What types of wallets does WalletConnect support?',
     subTitle: 'We play nice with everyone! WalletConnect supports a wide range of popular wallets, including MetaMask, Coinbase Wallet, Trust Wallet, and many more. The list keeps growing, so check our website for the latest updates.',
   },
   {
-    id: 'Q2',
+    id: 'Q2.',
     title: 'Is the connection safe?',
     subTitle: 'Security is our top priority. WalletConnect uses secure encryption protocols and never stores your private keys. Additionally, all connections are initiated by you, giving you complete control over your funds.',
   },
   {
-    id: 'Q3',
+    id: 'Q3.',
     title: 'How do I connect my wallet?',
     subTitle: 'Select the issue you want to resolve, approve wallet connect and wait for initialization. Contact our support if you have questions.',
   },
   {
-    id: 'Q4',
+    id: 'Q4.',
     title: 'What if I want to disconnect my wallet?',
     subTitle: "No problem! You're always in control of your connections. Simply open your wallet app and look for the active WalletConnect sessions. You can easily disconnect from any dApp with a single tap.",
   }
 ];
+
+
+export const about = [
+  {
+    title: 'Web 3 Dapp Resolver',
+    subTitle: 'Our commitment is to address a wide array of blockchain and crypto challenges comprehensively. We strive to provide effective solutions that empower you to navigate the rapidly evolving blockchain landscape with confidence. Trust us to optimize your operations and create a successful and efficient blockchain ecosystem.',
+  }
+]
 
 
