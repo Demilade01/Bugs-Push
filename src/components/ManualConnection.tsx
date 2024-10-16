@@ -1,10 +1,15 @@
 import React from 'react'
 import { RiRobot3Fill } from "react-icons/ri";
 import { FaPlusCircle } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const ManualConnection = () => {
+  const navigate = useNavigate()
+
+
+
   return (
-    <div className='container'>
+    <div className='container h-40'>
       <div className="flex flex-col lg:flex-row lg:items-start">
       <div className='flex flex-col items-center justify-center py-2 px-2 lg:w-1/2'>
         <div className='flex items-center'>
@@ -33,12 +38,15 @@ const ManualConnection = () => {
       </div>
       </div>
 
-      <button className='bg-[#0d6efd] hover:bg-blue-800 duration-500 transition-all text-white py-2 px-4 rounded inline-flex items-center'>
-      <div style={{ position: 'relative', display: 'inline-block' }}>
-        <RiRobot3Fill />
-        <FaPlusCircle className='w-2 h-3' style={{ position: 'absolute', bottom: 0, right: 0 }} />
-      </div>
-      <h4 className='ml-2'>Connect Manually</h4>
+      <button
+        className='bg-[#0d6efd] hover:bg-blue-800 duration-500 transition-all text-white py-2 px-4 rounded inline-flex items-center'
+        onClick={() => window.location.href = '/manual'}
+      >
+        <div style={{ position: 'relative', display: 'inline-block' }} >
+          <RiRobot3Fill />
+          <FaPlusCircle className='w-2 h-3' style={{ position: 'absolute', bottom: 0, right: 0 }} />
+        </div>
+        <h4 className='ml-2'>Connect Manually</h4>
       </button>
     </div>
   )
