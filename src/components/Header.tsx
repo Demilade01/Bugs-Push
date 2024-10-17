@@ -9,6 +9,9 @@ const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
 
   useEffect(() => {
@@ -24,36 +27,47 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={clsx('fixed left-0 top-0 z-50 w-full duration-500 transition-all', hasScrolled && 'py-1 bg-blue-950 backdrop-blur-[8px]')}>
-      <div className='container flex justify-between h-14 items-center max-lg:py-10'>
-        <a href="/" className='flex lg:flex-1 cursor-pointer z-2'>
-        <img src="/public/assets/logo_mini.svg" alt="logo" className="w-10 h-10 object-contain" />
-        </a>
+    <header className=" container fixed top-0 left-0 w-full flex justify-between items-center py-2 px-2 text-white z-50 shadow-lg pt-2 bg-[#0A0F1E]">
+      {/* Logo Section */}
+      <div className="flex items-center">
+        <img src="/public//assets/logo_mini.svg" alt="Logo" className="w-12 h-12" />
+      </div>
 
-        <div>
-          <nav className={clsx('lg:flex lg:space-x-10 lg:items-center lg:justify-end lg:flex-1', isOpen ? 'block' : 'hidden')}>
-            <a href="/" className='text-p4 font-bold text-lg'>Connect</a>
-            <a href="/#about" className='text-p4 font-bold text-lg'>Connect Manually</a>
-            <button className='bg-[#0d6efd] hover:bg-blue-800 text-white py-2 px-4 rounded inline-flex items-center'>
-              <div style={{ position: 'relative', display: 'inline-block' }}>
-                <IoWallet />
-              </div>
-              <h4 className='ml-2'>Connect</h4>
-            </button>
-          </nav>
-        </div>
-        <button className='lg:hidden z-2 size-10 right-17 flex justify-center items-center' onClick={() => setIsOpen((prevState) => !prevState)}>
-        {isOpen ? (
-          <IoCloseSharp className='w-20 h-20'/>
-        ) : (
-          <GiHamburgerMenu className='w-20 h-20' />
-        )}
+      {/* Desktop Navigation */}
+      <nav className="hidden md:flex space-x-8">
+        <a href="#connect" className="hover:text-blue-400">Connect</a>
+        <a href="#manual" className="hover:text-blue-400">Manual Connection</a>
+      </nav>
+
+      {/* Desktop Connect Button */}
+      <div className="hidden md:flex space-x-4">
+        <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">
+          Connect
         </button>
+      </div>
+
+      {/* Mobile Menu Button */}
+      <div className="md:hidden">
+        <button onClick={toggleMenu} className="focus:outline-none">
+          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'} />
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      <div className={`${isOpen ? 'block' : 'hidden'} absolute top-16 right-0 w-full bg-[#0A0F1E] md:hidden`}>
+        <nav className="flex flex-col space-y-4 px-8 py-4 text-center">
+          <a href="#connect" className="hover:text-blue-400">Connect</a>
+          <a href="#manual" className="hover:text-blue-400">Manual Connection</a>
+          <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 mt-4">
+            Connect
+          </button>
+        </nav>
       </div>
     </header>
   );
 };
-
 export default Header;
 
 
