@@ -27,8 +27,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="lg:w-1/2 mt-8 lg:mt-0 relative">
-          <img src="/public/assets/hero_img_1.png" alt="Hero Image" className="w-full max-w-md lg:max-w-lg" />
-          <img src="/public/assets/etherium.png" alt="Hero Image" className="w-1/2 max-w-md lg:max-w-lg absolute top-0 left-0 transform translate-x-1/4 translate-y-1/4 animate-spin-slow" />
+          <img src="../public/assets/hero_img_1.png" alt="Hero Image" className="w-full max-w-md lg:max-w-lg" />
+          <img src="../public/assets/etherium.png" alt="Hero Image" className="w-1/2 max-w-md lg:max-w-lg absolute top-0 left-0 transform translate-x-1/4 translate-y-1/4 animate-spin-slow" />
         </div>
       </div>
       <div className="absolute bottom-4 right-8 flex space-x-4">

@@ -31,10 +31,10 @@ const ManualConnection = () => {
 
       {/* Right Side: NFT/Avatar Display */}
       <div className="lg:w-1/2 grid grid-cols-2 gap-4">
-        <img src="/public/assets/blog11.jpeg" alt="NFT 1" className="w-full h-auto rounded-lg" />
-        <img src="/public/assets/about_img_2.png" alt="NFT 2" className="w-full h-auto rounded-lg" />
-        <img src="/public/assets/about_img_3.png" alt="NFT 3" className="w-full h-auto rounded-lg" />
-        <img src="/public/assets/blog9.jpeg" alt="NFT 4" className="w-full h-auto rounded-lg" />
+        <img src="../public/assets/blog11.jpeg" alt="NFT 1" className="w-full h-auto rounded-lg" />
+        <img src="../public/assets/about_img_2.png" alt="NFT 2" className="w-full h-auto rounded-lg" />
+        <img src="../public/assets/about_img_3.png" alt="NFT 3" className="w-full h-auto rounded-lg" />
+        <img src="../public/assets/blog9.jpeg" alt="NFT 4" className="w-full h-auto rounded-lg" />
       </div>
     </div>
   </section>
