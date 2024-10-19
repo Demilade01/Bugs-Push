@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='container'>
       <div className='flex items-center justify-center'>
         <a href="/">
-          <img src="/public/assets/logo_mini.svg" alt="logo" className='w-23 h-23' />
+          <img src="src/assets/logo_mini.svg" alt="logo" className='w-23 h-23' />
         </a>
       </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className='flex items-center justify-center pt-5'>
-        <p className='text-p1'>Copyright © 2024. All Rights <span className='text-white'>Reserved Web 3 Resolver</span></p>
+        <p className='text-p1'>Copyright © 2024. All Rights Reserved<span className='text-white'> Web 3 Resolver</span></p>
       </div>
     </div>
   )
