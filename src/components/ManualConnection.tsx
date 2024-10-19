@@ -33,10 +33,10 @@ Our team of experienced blockchain experts is dedicated to providing comprehensi
 
       {/* Right Side: NFT/Avatar Display */}
       <div className="lg:w-1/2 grid grid-cols-2 gap-4">
-        <img src="src/assets/blog11.jpeg" alt="NFT 1" className="w-full h-auto rounded-lg" />
-        <img src="src/assets/about_img_2.png" alt="NFT 2" className="w-full h-auto rounded-lg" />
-        <img src="src/assets/about_img_3.png" alt="NFT 3" className="w-full h-auto rounded-lg" />
-        <img src="src/assets/blog9.jpeg" alt="NFT 4" className="w-full h-auto rounded-lg" />
+        <img src="https://i.imgur.com/81oVVof.jpeg" alt="NFT 1" className="w-full h-auto rounded-lg" />
+        <img src="https://i.imgur.com/c8C2wW4.png" alt="NFT 2" className="w-full h-auto rounded-lg" />
+        <img src="https://i.imgur.com/EZcp6Vd.png" alt="NFT 3" className="w-full h-auto rounded-lg" />
+        <img src="https://i.imgur.com/VouzJaf.jpeg" alt="NFT 4" className="w-full h-auto rounded-lg" />
       </div>
     </div>
   </section>
