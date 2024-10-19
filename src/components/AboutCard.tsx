@@ -28,7 +28,7 @@ const AboutCard = () => {
             <RiRobot3Fill />
             <FaPlusCircle className='w-2 h-3' style={{ position: 'absolute', bottom: 0, right: 0 }} />
           </div>
-          <h4 className='ml-2'>Connect Manually</h4>
+          <h4 className='ml-2'>Our Services</h4>
           </button>
         </div>
         </div>

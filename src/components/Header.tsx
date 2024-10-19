@@ -30,13 +30,13 @@ const Header = () => {
     <header className=" container fixed top-0 left-0 w-full flex justify-between items-center py-2 px-2 text-white z-50 shadow-lg pt-2 bg-[#0A0F1E]">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src="../public/assets/logo_mini.svg" alt="Logo" className="w-12 h-12" />
+        <img src=" src/assets/logo_mini.svg " alt="Logo" className="w-12 h-12" />
       </div>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-8">
         <a href="#connect" className="hover:text-blue-400">Connect</a>
-        <a href="#manual" className="hover:text-blue-400">Manual Connection</a>
+        <a href="#manual" className="hover:text-blue-400">Our Services</a>
       </nav>
 
       {/* Desktop Connect Button */}
@@ -59,7 +59,7 @@ const Header = () => {
       <div className={`${isOpen ? 'block' : 'hidden'} absolute top-16 right-0 w-full bg-[#0A0F1E] md:hidden`}>
         <nav className="flex flex-col space-y-4 px-8 py-4 text-center">
           <a href="#connect" className="hover:text-blue-400">Connect</a>
-          <a href="#manual" className="hover:text-blue-400">Manual Connection</a>
+          <a href="#manual" className="hover:text-blue-400">Our Services</a>
           <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 mt-4">
             Connect
           </button>
