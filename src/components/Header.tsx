@@ -35,15 +35,16 @@ const Header = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-8">
-        <a href="#connect" className="hover:text-blue-400">Connect</a>
-        <a href="#manual" className="hover:text-blue-400">Our Services</a>
+        {/* <Button /> */}
+        <a href="#manual" className="hover:text-white-400 bg-blue-600 px-4 py-2 rounded-lg hover:bg-white-700">Our Services</a>
       </nav>
 
       {/* Desktop Connect Button */}
       <div className="hidden md:flex space-x-4">
-        <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">
+        {/* <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">
           Connect
-        </button>
+        </button> */}
+        <Button />
       </div>
 
       {/* Mobile Menu Button */}
@@ -58,11 +59,12 @@ const Header = () => {
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} absolute top-16 right-0 w-full bg-[#0A0F1E] md:hidden`}>
         <nav className="flex flex-col space-y-4 px-8 py-4 text-center">
-          <a href="#connect" className="hover:text-blue-400">Connect</a>
-          <a href="#manual" className="hover:text-blue-400">Our Services</a>
-          <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 mt-4">
+          {/* <a href="#connect" className="hover:text-blue-400">Connect</a> */}
+          <a href="#manual" className="hover:text-white-400 bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-400 mt-3">Our Services</a>
+          {/* <button className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 mt-4">
             Connect
-          </button>
+          </button> */}
+          <Button />
         </nav>
       </div>
     </header>

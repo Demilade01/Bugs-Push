@@ -2,6 +2,8 @@ import React from 'react'
 import { about } from '../constants'
 import { RiRobot3Fill } from 'react-icons/ri'
 import { FaPlusCircle } from 'react-icons/fa'
+import Button from './Button'
+
 
 const AboutCard = () => {
   return (
@@ -20,16 +22,7 @@ const AboutCard = () => {
           <h2 className=' text-white pt-20'>{about.subTitle}</h2>
         </div>
         <div className='mt-20 pb-10'>
-          <button
-          className=' bg-white hover:bg-box duration-500 transition-all text-gray-800 hover:text-white py-2 px-4 rounded-[5px] inline-flex items-center'
-          onClick={() => window.location.href = '/manual'}
-          >
-          <div style={{ position: 'relative', display: 'inline-block' }} >
-            <RiRobot3Fill />
-            <FaPlusCircle className='w-2 h-3' style={{ position: 'absolute', bottom: 0, right: 0 }} />
-          </div>
-          <h4 className='ml-2'>Our Services</h4>
-          </button>
+          <Button />
         </div>
         </div>
       </div>
