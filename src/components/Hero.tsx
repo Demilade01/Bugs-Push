@@ -18,9 +18,10 @@ const Hero = () => {
             Your go-to online tool to <span className="text-blue-400">seamlessly</span> and <span className="text-blue-400">efficiently</span> fix any blockchain-related issues you might encounter.
           </p>
           <div className="flex space-x-4">
-            <button className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 duration-500">
+            {/* <button className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 duration-500">
               Connect
-            </button>
+            </button> */}
+            <Button />
             <button className="bg-transparent border border-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 duration-500"  onClick={() => navigate('/manual')}>
               Our Services
             </button>
