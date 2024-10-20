@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='container'>
       <div className='flex items-center justify-center'>
         <a href="/">
-          <img src="src/assets/logo_mini.svg" alt="logo" className='w-23 h-23' />
+          <img src="https://i.imgur.com/XTcXHAG.png" alt="logo" className='w-23 h-23' />
         </a>
       </div>
 

@@ -30,7 +30,7 @@ const Header = () => {
     <header className=" container fixed top-0 left-0 w-full flex justify-between items-center py-2 px-2 text-white z-50 shadow-lg pt-2 bg-[#0A0F1E]">
       {/* Logo Section */}
       <div className="flex items-center">
-        <img src=" src/assets/logo_mini.svg " alt="Logo" className="w-12 h-12" />
+        <img src=" https://i.imgur.com/XTcXHAG.png " alt="Logo" className="w-12 h-12" />
       </div>
 
       {/* Desktop Navigation */}
