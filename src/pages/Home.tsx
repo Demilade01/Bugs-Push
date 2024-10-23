@@ -5,6 +5,8 @@ import Card from '../components/Card'
 import Services from '../components/Services'
 import ManualConnection from '../components/ManualConnection'
 
+
+
 const Home = () => {
   return (
     <div>
