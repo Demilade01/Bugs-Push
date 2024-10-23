@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Manual from './pages/Manual'
 import Home from './pages/Home'
 
+
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -16,7 +17,10 @@ const App = () => {
 					<Route path="/manual" element={<Manual />} />
 				</Routes>
 		</BrowserRouter>
+
 	)
 }
+
+	  
 
 export default App
