@@ -5,16 +5,16 @@ import { ConnectButton} from 'thirdweb/react';
 import { client } from '../client';
 
 const Button = () => {
-  
+
    return(
     <div>
       <ConnectButton
-  client={client}
-/>;
+         client={client}
+      />
 
     </div>
   );
-}; 
+};
 
 
-export default Button; 
+export default Button;
